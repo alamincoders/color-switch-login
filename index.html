@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Switch Login Page</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <h2 class="text">Login</h2>
+      <form class="form_wrapper" action="#">
+        <div class="input_box">
+          <input placeholder="username" type="text" name="" id="" />
+        </div>
+        <div class="input_box">
+          <input placeholder="password" type="password" name="" id="" />
+        </div>
+        <div class="input_box">
+          <input type="submit" name="" id="btn" />
+        </div>
+      </form>
+      <div class="links">
+        <a href="#">Forgot password</a>
+        <a href="#">Sign up</a>
+      </div>
+    </div>
+
+    <!-- colors -->
+    <div class="colors">
+      <span onclick="changeColor('#1dd1a1')" class="active" style="--clr: #1dd1a1"></span>
+      <span onclick="changeColor('#f24236')" style="--clr: #f24236"></span>
+      <span onclick="changeColor('#f28123ff')" style="--clr: #f28123ff"></span>
+      <span onclick="changeColor('#563f1bff')" style="--clr: #563f1bff"></span>
+      <span onclick="changeColor('#88527f')" style="--clr: #88527f"></span>
+    </div>
+
+    <!-- javascript -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
